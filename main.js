@@ -12,4 +12,4 @@ console.log("Peri : "+s.perimeter());
 console.log("Diag : "+s.diagonal());
 
 var t = new RightTriangle(3,4);
-console.log("Hypothenuse : "+t.hypothenuse());
+console.log("Hypotenuse : "+t.hypotenuse());
