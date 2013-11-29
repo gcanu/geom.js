@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Circle = require('../circle.js');
+var Circle = require('../app/circle.js');
 
 var circle = new Circle(1);
 
