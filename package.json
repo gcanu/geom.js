@@ -1,0 +1,34 @@
+{
+    "name": "geom",
+    "version": "0.0.1",
+    "description": "A simple calculator",
+    "keywords": ["geometry", "math"],
+    "homepage": "https://github.com/gcanu/geom.js",
+    "licenses": [
+        {
+            "type": "GPL v3",
+            "url": "http://www.gnu.org/licenses/quick-guide-gplv3.html"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gcanu/geom.js"
+    },
+    "bugs": "https://github.com/gcanu/geom.js/issues",
+    "maintainers": [
+        {
+            "name": "Guillaume Canu",
+            "web": "https://github.com/gcanu"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Guillaume Canu",
+            "web": "https://github.com/gcanu"
+        }
+    ],
+    "main": "main",
+    "scripts": {
+        "test": "mocha test/circle-test.js -R spec",
+    }
+}
