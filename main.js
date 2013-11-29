@@ -13,3 +13,5 @@ console.log("Diag : "+s.diagonal());
 
 var t = new RightTriangle(3,4);
 console.log("Hypotenuse : "+t.hypotenuse());
+console.log("Angle 0 : "+t.angle(0));
+console.log("Angle 1 : "+t.angle(1));
