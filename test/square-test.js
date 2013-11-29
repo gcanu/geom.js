@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Square = require('../square.js');
+var Square = require('../app/square.js');
 
 var square = new Square(10);
 

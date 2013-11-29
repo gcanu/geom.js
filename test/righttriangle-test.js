@@ -1,5 +1,5 @@
 var assert = require('assert');
-var RightTriangle = require('../righttriangle.js');
+var RightTriangle = require('../app/righttriangle.js');
 
 var rtriangle = new RightTriangle(3,4);
 
