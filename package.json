@@ -29,9 +29,9 @@
     ],
     "devDependencies": {
         "mocha": "1.13.0"
-    }
+    },
     "main": "main",
     "scripts": {
-        "test": "mocha test/circle-test.js -R spec",
+        "test": "mocha test/circle-test.js -R spec"
     }
 }
