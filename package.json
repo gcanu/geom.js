@@ -1,6 +1,6 @@
 {
     "name": "geom",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A simple calculator",
     "keywords": ["geometry", "math"],
     "homepage": "https://github.com/gcanu/geom.js",
@@ -32,6 +32,6 @@
     },
     "main": "main",
     "scripts": {
-        "test": "mocha test/circle-test.js -R spec"
+        "test": "mocha -R spec"
     }
 }
