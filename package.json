@@ -1,6 +1,6 @@
 {
   "name": "geom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple calculator",
   "keywords": [
     "geometry",
@@ -31,15 +31,12 @@
     }
   ],
   "devDependencies": {
-    "mocha": "1.13.0",
-    "blanket": "~1.1.5"
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5",
+    "mocha": "^1.13.0"
   },
   "main": "main",
   "scripts": {
-    "test": "mocha -R spec",
-    "cover": "mocha -r blanket -R html-cov > coverage.html",
-    "blanket": {
-      "pattern": "app"
-    }
+    "test": "mocha"
   }
 }
